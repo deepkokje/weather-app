@@ -1,0 +1,43 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #7b4397;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: sans-serif;
+    color: white;
+}
+
+.location,.temp {
+    height:30vh ;
+    display: flex;
+    width: 50%;
+    justify-content: space-around ;
+    align-items: center;
+}
+.temp{
+    flex-direction: column;
+}
+.degree-sec{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-sec span{
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-sec h2{
+    font-size: 40px;
+}
+   
